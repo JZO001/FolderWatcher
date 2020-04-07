@@ -251,10 +251,6 @@ namespace FolderWatcher
                     {
                         Console.WriteLine("Failed to send refresh signal.");
                     }
-                    finally
-                    {
-                        await client.CloseOutputAsync(WebSocketCloseStatus.NormalClosure, "Closed by console", CancellationToken.None);
-                    }
                 }
             }
         }

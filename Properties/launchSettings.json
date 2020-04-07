@@ -1,8 +1,7 @@
 {
   "profiles": {
     "FolderWatcher": {
-      "commandName": "Project",
-      "commandLineArgs": "/DefaultFolderToWatch=\"C:\\Development\\NET\\Git\\ASPNETCoreMVCwithReact\\ClientApp\" /ExcludeSubFolders=build;config;node_modules;scripts /CommandAtChange=\"C:\\DevTools\\nodejs\\npm.cmd run start\" /CommandWorkFolder=\"C:\\Development\\NET\\Git\\ASPNETCoreMVCwithReact\\ClientApp\" /CommandDelayMS=1000"
+      "commandName": "Project"
     }
   }
 }
